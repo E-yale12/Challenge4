@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{margin: 0;
+     padding:0;
+     box-sizing: border-box;
+     overflow-x: hidden;
+     font-family: 'Playfair Display', serif;
+   
+}
+
+.navbar{text-transform: lowercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgb(red, green, blue)!important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:yellowgreen;
+}
+
+.heading-content text-center{
+    float: inline-end;
+    text-align: center;
+    display: inline-flex;
+    color: crimson;
+    
+}
+
+p { 
+    display: block;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .h1el{ position: relative;
+        top: 50px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .abtme{ text-align: center;
+           display: flex;
+
+
+    }
+
+     h2 { font-weight: bold;
+         position: relative;
+         top: 70;
+         text-align: center;
+     
+    }
+
+    img{ position:absolute;
+        float: right;
+        width: 150;
+        height:150px;
+        border-radius:80px;
+        margin: 25px;
+        padding: 30px;
+        }
+
+
+   .skills{ position: relative;
+            top: 200px;
+            text-align: center;
+            font-weight: bold;
+
+   }
+
+   .list{
+       position: relative;
+       top: 250px;
+       text-align: center;
+       
+   }

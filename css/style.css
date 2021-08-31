@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{margin: 0;
+     padding:0;
+     box-sizing: border-box;
+     overflow-x: hidden;
+     font-family: 'Playfair Display', serif;
+}
+
+.navbar{text-transform: lowercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgb(red, green, blue)!important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:yellowgreen;
+}
+
+.heading-content.h1{
+    float: inline-end;
+    text-align: center;
+    display: inline-flex;
+}
+
+
+.jumbotron{ height: 310px;
+    background-color: rgb(47, 160, 189);
+    transform: transparent;
+    position: relative;
+    top:25px;
+    right:5px;
+
+}
+
+img{
+    width: 100px;
+    border-radius: 100px;
+
+}
+
+h1{ color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{ color: white;
+    font-weight: normal;
+    font-family: cursive;
+   
+}
+
+button{  background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 80px;
+}
+
+.grid-container{
+    display: grid;
+    grid: template columns 50px;
+    background-color:chartreuse;
+    border: 1px solid #1e96ff;
+   
+}
+
+.grid-item{
+    background-color: none;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.my-work{
+    color: red;
+    text-align: center;
+}
+
+
+.display_0{
+    color: white;
+    text-align: center;
+}
+
+.display{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 25;
+}
+
+.icon1{
+    text-align:center;
+    color:  rgb(47, 160, 189);
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+
+
+.icon2{
+    text-align:left;
+    color:  rgb(47, 160, 189);
+    position: relative;
+    top: 25px;
+    left: 180px;
+}
+
+.icon3{
+    text-align:left;
+    color: rgb(47, 160, 189);
+    text-align: justify;
+    position: relative;
+    top: 25px;
+    left: 70px;
+}
+
+.container-fluid{
+    width: 400px;
+}
+
+.pro1{
+    position: relative;
+    top: 44px;
+    right: 295px;
+    bottom: 60px;
+    left: 25x;
+}
+
+.pro2{
+    position: relative;
+    bottom: 425px;
+    left: 300px;
+
+}
+
+.pro3{
+    position: relative;
+    bottom: 310px;
+    right:300px;
+}
+
+.pro4{
+    position: relative;
+    bottom: 780px;
+    left:300px;
+}
+
+.btn-sm{ background-color:teal;
+        color: white;
+        border-radius: 50px;
+
+}
+
+
+.btn-sm:hover{ background-color: yellowgreen;
+    color: tomato;
+
+}
+
+.learn-more{
+    background-color:white;
+    color:black;
+    border-radius: 25px;
+}
+
+.learn-more:hover{ background-color: teal;
+                  color: yellowgreen;
+}
+
+
+.card-text{ font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#1e96ff;
+}
+
+body{ background-color:black;
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height:100%;
+}
+
+html{
+    height: 100%;
+}
+
+
+.abt-me{ text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif ;
+    position: relative;
+    bottom: 700px;
+}
+
+.text-abt-me{ text-align: center;
+              font-family: 'Times New Roman', Times, serif;
+              position: relative;
+              bottom:700px;
+              left:475px;
+              width: 400px;
+              color:#1e96ff;
+}
+
+.resume-btn{
+       background-color: teal;
+       color: white;
+       width: 125px;
+       height: 35px;;
+       text-align: center;
+       border-radius: 25px;
+       position: relative;
+       bottom: 700px;
+       left:625px;
+}
+
+.resume-btn:hover{background-color: rgb(82, 90, 65);
+    color: tomato;
+}
+
+@media (min-width: 480px) {
+    body{
+      font-size: 16px;
+    }
+  }
+
+  
+@media (min-width: 480px) {
+    img{
+      font-size: 16px;
+    }
+  }
+
+  
+@media (min-width: 480px) {
+    .navbar{
+      font-size: 16px;
+    }
+  }
